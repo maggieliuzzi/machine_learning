@@ -2,7 +2,7 @@ from texts import text_counter, text_training
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 
-intercepted_text = "This hot dog was awful!"
+intercepted_text = "Government is important, but I hate mine"
 
 text_counts = text_counter.transform([intercepted_text])
 
